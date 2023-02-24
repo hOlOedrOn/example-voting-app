@@ -68,7 +68,7 @@ body{
   vertical-align:middle;
   font-size:40px;
   font-weight: 600;
-  width: 450px;
+  width: 1000px;
   height: 200px;
 }
 #choice a{
@@ -80,7 +80,7 @@ body{
 }
 
 #choice .choice{
-  width: 49%;
+  width: 33%;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -94,7 +94,7 @@ body{
 
 #choice .choice.dogs{
   color: #00cbca;
-  float: right;
+  float: left;
 }
 
 #choice .choice.cats{
@@ -104,7 +104,7 @@ body{
 
 #choice .choice.rabbits{
   color: #e531d9;
-  float: center;
+  float: right;
 }
 
 #background-stats{
@@ -117,6 +117,6 @@ body{
   transition: width 400ms ease-in-out;
   display:inline-block;
   margin-bottom:-4px;
-  width:50%;
+  width:33%;
   height:100%;
 }
